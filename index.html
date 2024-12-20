@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Home Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: hwb(203 10% 7%);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px #ff0000;
+            margin: 0;
+            float:left;
+            font-size: 2.5rem;
+        }
+        .hp{
+            font-family: 'Times New Roman', Times, serif;
+            text-shadow: 2px 2px #ff0000;
+            margin: 0;
+            float:middle;
+            font-size: 2.5rem;
+        }
+
+        .card2 {
+            background: rgb(237, 236, 236);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: auto;
+            width: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .p4{
+          padding-left: 370px;
+          text-align:left;
+          font-size: 120%;
+        }
+
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: hwb(203 8% 28%);
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            text-shadow: 1px 1px #000000;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffcc00;
+            transform: scale(1.1);
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: url("IMAGES/cgb.jpg") no-repeat center center/cover;
+            height: 400px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .content {
+            padding: 2rem;
+            text-align: center;
+        }
+        .content h2 {
+            font-size: 20px;
+            margin-bottom: 1rem;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+        }
+        .card1 {
+            background: rgb(237, 236, 236);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 450px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card1:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 0;
+            padding: 1rem;
+            background-color: #0044cc;
+            color: white;
+        }
+        .card p {
+            padding: 1rem;
+            margin: 0;
+        }
+        .admissions a {
+            color: #003366;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        .admissions a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #003399;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        footer a:hover {
+            color: white;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="IMAGES/logo code.jpg" alt="Chapman University Logo" style="height: 150px; margin-right: 20px; vertical-align: left;">
+        <div class="hp">Welcome to Chapman University</div>
+    </header>
+    
+    
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#programs">Programs</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#admissions">Contact</a>
+    </nav>
+    <div class="hero">
+        <h2>Inspiring Futures, Shaping Dreams</h2>
+    </div>
+    <div class="content" id="about">
+        <h2>About Chapman University</h2>
+        <p>Chapman University is dedicated to empowering students with knowledge, skills, and values to succeed in a dynamic world. Join our vibrant community today!</p>
+        <div class="cards">
+            <div class="card1">
+                <h2>Our Mission</h2>
+                <p>Chapman University is dedicated to creating a dynamic learning environment that fosters intellectual curiosity, ethical responsibility, and global citizenship. We empower our students with the skills and knowledge to lead with integrity and impact their communities positively.</p>
+            </div>
+            <div class="card1">
+                <h2>Our History</h2>
+            
+                <p>Founded in 1861, Chapman University has been a beacon of academic excellence for over 150 years. From its humble beginnings to becoming a nationally recognized institution, Chapman continues to uphold its tradition of innovation and commitment to student success.</p>
+            </div>
+            <div class="card1">
+                <h2>Why Choose Chapman?</h2>
+                <ul>
+                  <li>Top-notch faculty with a focus on student growth</li>
+                  <li>Diverse academic programs and cutting-edge research opportunities</li>
+                 <li>Vibrant campus life and a supportive community</li>
+                  <li>State-of-the-art facilities and a picturesque campus</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="programs">
+        <h2>Our Programs</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="IMAGES/science.jpeg" alt="Science">
+                <h3>Science & Technology</h3>
+                <p>Explore cutting-edge science and technology programs designed to ignite your curiosity and innovation.</p>
+            </div>
+            <div class="card">
+                <img src="IMAGES/arts.png" alt="Arts">
+                <h3>Arts & Humanities</h3>
+                <p>Dive into the world of creativity and critical thinking with our arts and humanities courses.</p>
+            </div>
+            <div class="card">
+                <img src="IMAGES/sports.jpeg" alt="Sports">
+                <h3>Sports</h3>
+                <p>Colleges organize sports competitions and set aside time for sports and games.</p>
+            </div>
+            <div class="card">
+                <img src="IMAGES/bussiness.jpeg" alt="Business">
+                <h3>Business & Management</h3>
+                <p>Develop leadership skills and business acumen with our comprehensive management programs.</p>
+            </div>
+        </div>
+    </div>
+    <div class="content admissions" id="admissions">
+        <h2>Admissions</h2>
+        <p>At Chapman University, we believe in opening doors to opportunity and empowering students to achieve their dreams. Whether you're a first-year student, transfer student, or pursuing graduate studies, we’re here to guide you through the process.</p>
+        <div class="card2">
+            <h2>How to Apply</h2>
+            <div class="p4">
+            1) Visit our <a href="admissions.html">Admissions Page</a> for detailed information.<br>
+            2) Submit your online application through the <a href="https://www.commonapp.org/" target="_blank">Common Application</a>.<br>
+            3) Provide required documents, including transcripts, letters of recommendation, and a personal statement.<br>
+            4) Review and submit your application before the deadline.<br>
+            </div>
+        <h2>Contact Admissions</h2>
+        <div class="p4">
+            <p>If you have any questions, feel free to contact our Admissions Office:</p>
+        <ul>
+            <li>Email: <a href="adityaprasad.r66@gmail.com">admissions@chapman.edu</a></li>
+            <li>Phone: (714) 997-6711</li>
+        </ul>
+        </div>
+        </div>
+    <footer>
+        <p>&copy; 2024 Chapman University. All rights reserved.</p>
+        <p><a href="contact.html">Contact Us</a></p>
+    </footer>
+</body>
+</html>
